@@ -1,31 +1,28 @@
-EU Macroeconometrics Project
-This project explores the relationship between fiscal deficits, unemployment, inflation, and GDP growth across five EU countries (2014–2024): Poland, Germany, France, Czech Republic, and Lithuania.
+EU Macroeconometrics Project:
+
+This project examines how fiscal deficits, unemployment, inflation, and government spending influence GDP growth across five EU countries—Poland, Germany, France, Czech Republic, and Lithuania—from 2014 to 2024.
 
 Objective:
-To determine if these economic indicators significantly affect GDP growth over time, using real data and regression models.
 
-Data & Methodology:
+To understand whether key macroeconomic indicators have a significant impact on GDP growth over time using real-world data and regression analysis.
 
-Data sourced from Eurostat
-
-Cleaned and structured using Excel
-
-Used Gretl for regression analysis
+Data & Methodology
+	•	Data sourced from Eurostat
+	•	Cleaned and prepared in Excel
+	•	Analyzed using Gretl through a multiple linear regression model:
 
 Model:
 GDP_Growth = α + β₁(Fiscal_Deficit) + β₂(Unemployment_Rate) + β₃(Inflation_Rate) + β₄(Government_Expenditure) + error
 
-Key Insights:
+Key Insights
+	•	Poland: Fiscal deficit showed the strongest impact on growth (R² = 67%)
+	•	Germany: Inflation was the most influential variable (R² = 54%)
+	•	France: Unemployment had the greatest negative effect (R² = 29%)
+	•	Czech Republic: Despite low unemployment, government spending had a negative impact
+	•	Lithuania: Post-COVID growth was strong but accompanied by high inflation
 
-Poland: Strong link between fiscal deficits and growth (R² = 67%)
+What I Learned:
 
-Germany: Inflation helped explain growth (R² = 54%)
+This project deepened my understanding of how macroeconomic indicators interact and how econometric models can uncover meaningful trends across different countries and policy settings.
 
-France: Unemployment had the biggest negative effect (R² = 29%)
-
-Czech Republic: Low unemployment, but negative impact from government spending
-
-Lithuania: Strong post-COVID growth but high inflation
-
-This project helped me understand how macroeconomic data can be modeled and interpreted across different countries and policy environments.
 
